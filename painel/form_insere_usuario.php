@@ -26,17 +26,17 @@
             <div class="col-sm-8">
                 <div class="card">
                     <form action="cadastra_usuario.php" method="POST">
-                        <h2>INSERIR NOVO USUÁRIO DO SISTEMA</h2>
+                        <h2 class="h2">INSERIR NOVO USUÁRIO DO SISTEMA</h2>
                         <div class="mb-3">
-                            <label for="nome_usuario" class="form-label">Nome do Usuário</label>
+                            <label for="nome_usuario" class="pp">Nome do Usuário</label>
                             <input type="text" class="form-control" id="nome_usuario" name="nome_usuario">                            
                         </div>
                         <div class="mb-3">
-                            <label for="email_usuario" class="form-label">Email do Usuário</label>
+                            <label for="email_usuario" class="pp">Email do Usuário</label>
                             <input type="email" class="form-control" id="email_usuario" name="email_usuario">
                         </div>
                         <div class="mb-3">
-                            <label for="senha" class="form-label">Senha</label>
+                            <label for="senha" class="pp">Senha</label>
                             <input type="password" class="form-control" id="senha" name="senha">
                         </div>                        
                         <button type="submit" class="btn btn-primary">Cadastrar Novo Usuário</button>
@@ -52,6 +52,8 @@
     <script src="vendors/popper.js/dist/umd/popper.min.js"></script>
     <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    
 
 </body>
 </html>

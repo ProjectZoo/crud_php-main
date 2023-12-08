@@ -8,11 +8,12 @@
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: $card-bg;
+  background-color: black;
   background-clip: border-box;
-  border: 15px solid #272727
-  border: border: 15 px solid #ccc
-}
+  border: 15px solid #ff0000;
+  border-radius: 20px;
+  padding: 5px;
+ }
   @include border-radius($card-border-radius);
 
   > hr {

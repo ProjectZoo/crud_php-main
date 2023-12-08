@@ -1,0 +1,26 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: black;
+    background-clip: border-box;
+    border: 15px solid #ff0000;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 4px;
+
+   }
+   .h20{
+    margin: 4px;
+    color: blue;
+
+   }
+   .pp{
+    padding: 4px;
+    color: blue;
+   }
+   .bn{
+    margin-left: 40%;
+   }
